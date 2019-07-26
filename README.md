@@ -17,7 +17,9 @@ Store files in Google Docs without counting against your quota.
 
 1. Head to [Google's API page](https://developers.google.com/drive/api/v3/quickstart/python) and enable the Drive API
 2. Download the configuration file as 'client_secret.json' to the UDS directory
-3. run `python uds.py` for initial set up
+3. If running Termux on Android (python 3.7.4 for me): `pip install openssl-dev` prior to `pip install -r requirements.txt`
+4. If otherwise (bash/ubuntu): `pip install libssl-dev` prior to `pip install -r requirements.txt`
+5. run `python uds.py` for initial set up
 
 ### Upload
 
